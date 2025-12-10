@@ -1,5 +1,10 @@
 {
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
+    "customizations": {
+        "coder": {
+     "autoStart": true
+   }
+ }
 }

@@ -3,7 +3,14 @@
         "dockerfile": "Dockerfile"
     },
     "customizations": {
-        "coder": {
+        "vscode": {
+     "extensions": [
+     ],
+     "settings": {
+       "terminal.integrated.defaultProfile.linux": "zsh",
+     }
+   },
+    "coder": {
      "autoStart": true
    }
  }
